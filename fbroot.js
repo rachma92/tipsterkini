@@ -1,0 +1,1 @@
+function downloadJSAtOnload(){var d=document.createElement("script");d.src="",document.body.appendChild(d)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
